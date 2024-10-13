@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import useTheme from "./hooks/useTheme"; // Adjust the path as necessary
 import MarkdownViewer from "./MarkdownViewer";
 import { IoColorPaletteSharp } from "react-icons/io5";
