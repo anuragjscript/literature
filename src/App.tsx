@@ -6,16 +6,16 @@ import { FaChevronLeft } from "react-icons/fa6";
 import { FaChevronRight } from "react-icons/fa6";
 
 const colorOptions = [
-  "#3B82F6", // Blue
-  "#F59E0B", // Yellow
-  "#10B981", // Green
-  "#EF4444", // Red
-  "#9333EA", // Purple
-  "#F97316", // Orange
+  "#789DBC", // Blue
+  "#EC8305", // Orange
+  "#257180", // Green
+  "#CB6040", // Red
+  "#605678", // Purple
+  "#493628", // Brown
 ];
 
 const App = () => {
-  const [isExpanded, setExpanded] = useState(true);
+  const [isExpanded, setExpanded] = useState<boolean>(false);
   const [themeColor, changeThemeColor] = useTheme();
   const [isDropdownOpen, setDropdownOpen] = useState(false);
 
